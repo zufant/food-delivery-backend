@@ -52,8 +52,8 @@ import { RestaurantService } from './restaurants/restaurant.service';
     ]),
     PassportModule.register({ defaultStrategy: 'jwt' }),
     JwtModule.register({
-      secret: '4f45ac06b41f76f2f8b5b6220cded3ecf0545be21cdd5f1c9827edca46fd9d3d', // Replace with a secure key
-      signOptions: { expiresIn: '1h' }, // Token expiration time
+      secret: '4f45ac06b41f76f2f8b5b6220cded3ecf0545be21cdd5f1c9827edca46fd9d3d', 
+      signOptions: { expiresIn: '1h' }, 
     }),
   ],
   controllers: [AppController,AuthController,MenuItemCategoryController,MenuItemsController,RoleController,RestaurantController],
