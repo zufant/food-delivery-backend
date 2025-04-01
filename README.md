@@ -26,7 +26,7 @@ Install all necessary dependencies from the package.json file by running:
 ```
 npm install --force
 ```
-##Run the application
+## Run the application
 Run the following command to run the project:
 ```
 npm run start
